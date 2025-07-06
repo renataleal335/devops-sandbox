@@ -1,0 +1,56 @@
+# Dependências que podem ser recriadas
+node_modules/
+venv/
+__pycache__/
+.pytest_cache/
+.npm/
+.cache/
+
+# Arquivos de controle de versão
+.git/
+.gitignore
+.gitattributes
+
+# Arquivos de desenvolvimento
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de configuração local e secrets
+.env
+.env.local
+.env.development
+.env.staging
+*.pem
+*.key
+config/local.json
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.temp
+logs/
+tmp/
+
+# Arquivos de build local (devem ser buildados no container)
+dist/
+build/
+target/
+out/
+
+# Arquivos de documentação (opcional)
+README.md
+docs/
+*.md
+
+# Arquivos de teste
+coverage/
+.nyc_output/
+test-results/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
